@@ -116,6 +116,7 @@ header {
     padding: 24px;
     background-color: #FFFFFF;
     border-radius: 10px;
+    height: 244px;
   }
 
   .pillars-title {
@@ -130,4 +131,174 @@ header {
 
   .pillar-description {
     font-size: 16px;
+  }
+
+  /* Vision of Bangladesh */
+
+  .vision {
+    margin-top: 80px;
+  }
+
+  .vision-title {
+    font-size: 40px;
+    color: #0E0E0E;
+  }
+
+  .vision-description {
+    font-size: 16px;
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+
+  .items-container {
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+
+  .items-title {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+  }
+
+  .items-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+  }
+
+  .items {
+    height: 325px;
+    width: 410px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 15px;
+    padding: 24px;
+  }
+  
+  .items1 {
+    height: 325px;
+    width: 410px;
+    background-color: #C6E4D6;
+    border-radius: 15px;
+    padding: 24px;
+  }
+
+  .items2 {
+    border-radius: 15px;
+    height: 325px;
+    width: 410px;
+    padding: 24px;
+    background-color: rgba(247, 235, 207, 1);
+  }
+
+  .item-button1, .item-button2, .item-button3 {
+    padding: 11px 20px 11px 20px;
+    border-radius: 10px;
+    border:none;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  .item-button1 {
+    background-color: #5490F5;
+  }
+  .item-button2 {
+    background-color: #09A15C;
+  }
+  .item-button3 {
+    background-color: #FFC239;
+  }
+
+  /* Section 2 Styles */
+
+  .section-container {
+    padding: 48px 24px 48px 24px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 30px 34px;
+  }
+
+  .section-description {
+    line-height: 24px;
+    font-size: 16px;
+    color: #0E0E0E;
+  }
+  .section-title {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #0E0E0E;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    margin-top: 5px;
+  }
+
+  /* Opinion section design */
+
+  .opinion {
+    margin-top: 80px;
+  }
+
+  .opinion-title {
+    font-size: 40px;
+    color: #0E0E0E;
+  }
+
+  .opinion-container {
+    background-color: #FFFFFF;
+    padding: 32px 32px 32px 32px;
+    margin-top: 24px;
+    border-radius: 15px;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+th {
+  border: 1px solid #D9D9D9;
+  padding: 24px 24px 24px 24px;
+  font-size: 20px;
+  color: #0E0E0E;
+}
+
+  .opinion-description, td {
+    border: 1px solid #D9D9D9;
+    padding: 24px 24px 24px 24px;
+    font-size: 16px;
+    color: #0E0E0E;
+  }
+
+  .opinion-button {
+    padding: 12.5px 52.5px 12.5px 16.5px;
+    font-size: 16px;
+    color: #0E0E0E;
+    background-color: rgba(9, 161, 92, 0.15);
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  /* News Section Style */
+  .news-section {
+    margin-top: 80px;
+  }
+
+  .content-description {
+    margin-top: 24px;
+  }
+
+  .news-container{
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 48px 48px 48px 48px;
+    margin-top: 32px;
+    border-radius: 15px;
+    gap: 32px;
+  }
+
+  .news-container img {
+    border-radius: 17px;
   }
