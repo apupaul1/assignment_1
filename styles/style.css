@@ -172,7 +172,8 @@ header {
   .items-container {
     display: flex;
     margin-top: 32px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 20px;
     margin-bottom: 32px;
   }
 
