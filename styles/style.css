@@ -286,8 +286,16 @@ th {
     margin-top: 80px;
   }
 
+  .content-title {
+    font-size: 40px;
+    color: #0E0E0E;
+  }
+
   .content-description {
     margin-top: 24px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
   }
 
   .news-container{
@@ -297,8 +305,31 @@ th {
     margin-top: 32px;
     border-radius: 15px;
     gap: 32px;
+    align-items: center;
   }
 
   .news-container img {
     border-radius: 17px;
+  }
+
+  .news-title {
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+  }
+
+  .time-date , .news-description  {
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.7);
+    margin-top: 12px;
+  }
+
+  .news-button {
+    margin-top: 32px;
+    padding: 13px 26px 13px 26px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
   }
