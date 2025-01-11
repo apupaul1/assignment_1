@@ -42,7 +42,11 @@ header {
 .margin-top {
   margin-top: 24px;
 }
-  
+
+.font-color1 {
+  background-color: #C6E4D6;
+}
+
   /* Nav Styles */
   nav {
     display: flex;
@@ -66,6 +70,13 @@ header {
     border: 1px solid #006A50;
     color: #006A50;
     background-color: #F5F5F5;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1:hover {
+      background-color: #04AA6D;
+      color: white;
   }
 
   /* Banner Styles */
@@ -110,6 +121,7 @@ header {
     display: flex;
     margin-top: 32px;
     gap: 24px;
+    justify-content: space-between;
   }
 
   .pillar {
@@ -332,4 +344,52 @@ th {
     color: #FFFFFF;
     background-color: #006A50;
     border: none;
+  }
+
+  /* Donation Section */
+
+  .donation {
+    margin-top: 80px;
+  }
+
+  .donation-title {
+    font-size: 40px;
+    color: #0E0E0E;
+    text-align: center;
+  }
+
+  .donation-description {
+    margin-top: 24px;
+    text-align: center;
+    padding: 0 88px 0 88px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+  }
+
+  .donation-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px 104.5px 32px 104.5px;
+  }
+
+  .items-card {
+    width: 240px ;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 15px;
+    text-align: center;
+    padding: 40px 40px 40px 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+  }
+
+  .donation-button {
+    margin-top: 32px;
+    padding: 17px 34px 17px 34px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #006A50;
   }
