@@ -109,7 +109,14 @@ header {
     color: #FFFFFF;
     font-size: 18px;
     margin-top: 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
+
+  .banner-button:hover {
+    background-color: #269dad;
+    color: white;
+}
 
   /* Pillars of Bangladesh 2.0 */
 
@@ -209,16 +216,30 @@ header {
     border:none;
     font-size: 16px;
     color: #FFFFFF;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
   .item-button1 {
     background-color: #5490F5;
   }
+  .item-button1:hover {
+    background-color: #09A15C;
+    color: white;
+}
   .item-button2 {
     background-color: #09A15C;
   }
+  .item-button2:hover {
+    background-color: #FFC239;
+    color: white;
+}
   .item-button3 {
     background-color: #FFC239;
   }
+  .item-button3:hover {
+    background-color: #5490F5;
+    color: white;
+}
 
   /* Section 2 Styles */
 
@@ -276,6 +297,7 @@ th {
   padding: 24px 24px 24px 24px;
   font-size: 20px;
   color: #0E0E0E;
+  text-align: left;
 }
 
   .opinion-description, td {
@@ -293,7 +315,14 @@ th {
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
+
+.opinion-button:hover {
+background-color: #269dad;
+color: white;
+}
 
   /* News Section Style */
   .news-section {
@@ -346,7 +375,14 @@ th {
     color: #FFFFFF;
     background-color: #006A50;
     border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
+
+.news-button:hover {
+  background-color: #269dad;
+  color: white;
+}
 
   /* Donation Section */
 
@@ -385,7 +421,14 @@ th {
     padding: 40px 40px 40px 40px;
     color: rgba(14, 14, 14, 0.8);
     font-size: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
+
+.items-card:hover {
+background-color: #269dad;
+color: white;
+}
 
   .button-container {
     margin-left: 724.5px;
@@ -403,6 +446,13 @@ th {
     height: 56px;
     width: 151px;
     text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .donation-button:hover {
+    background-color: #269dad;
+    color: white;
   }
 
   .donation-area {
@@ -432,6 +482,11 @@ th {
     color: #0E0E0E;
   }
 
+  .flex-container {
+    display: flex;
+    align-items: center;
+  }
+
   .newsletter-description {
     margin-top: 16px;
     text-align: center;
@@ -443,12 +498,13 @@ th {
 
   input[type="email"] {
     margin-top: 24px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-sizing: border-box;
     height: 56px;
     width: 750px;
     border: none;
     background-color: #FFFFFF;
+    padding-left: 40px;
   }
 
   .newsletter-button {
@@ -459,7 +515,15 @@ th {
     color: #FFFFFF;
     border-radius: 5px;
     background-color: #006A50;
+    margin-top: 24px ;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
+
+.newsletter-button:hover {
+  background-color: #269dad;
+  color: white;
+}
 
   .newsletter-footer {
     margin-top: 24px;
