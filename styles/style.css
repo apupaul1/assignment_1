@@ -268,6 +268,7 @@ header {
 
   table {
     border-collapse: collapse;
+    width: 100%;
   }
 
 th {
@@ -291,6 +292,7 @@ th {
     background-color: rgba(9, 161, 92, 0.15);
     border: 1px solid black;
     border-radius: 5px;
+    text-align: center;
   }
 
   /* News Section Style */
@@ -350,6 +352,7 @@ th {
 
   .donation {
     margin-top: 80px;
+    align-items: center;
   }
 
   .donation-title {
@@ -384,12 +387,83 @@ th {
     font-size: 40px;
   }
 
+  .button-container {
+    margin-left: 724.5px;
+    margin-right: 724.5px;
+    margin-top: 12px;
+  }
+
   .donation-button {
-    margin-top: 32px;
-    padding: 17px 34px 17px 34px;
+    /* padding: 17px 34px 17px 34px; */
     border-radius: 10px;
     border: none;
     font-size: 18px;
     color: #FFFFFF;
     background-color: #006A50;
+    height: 56px;
+    width: 151px;
+    text-align: center;
+  }
+
+  .donation-area {
+    height: 64px;
+    width: 83%;
+    border: none;
+    margin: 32px 124px 32px 124px;
+    text-align: center;
+  }
+
+  /* Newsletter Styles */
+
+  .newsletter {
+    margin-top: 80px;
+    background-color: #C6E4D6;
+    padding: 40px 100px 40px 100px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+  }
+  
+  .newsletter-container {
+    margin: 80px 265px 80px 265px;
+  }
+  .newsletter-title {
+    text-align: center;
+    font-size: 40px;
+    color: #0E0E0E;
+  }
+
+  .newsletter-description {
+    margin-top: 16px;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+
+  input[type="email"] {
+    margin-top: 24px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 56px;
+    width: 750px;
+    border: none;
+    background-color: #FFFFFF;
+  }
+
+  .newsletter-button {
+    border: none;
+    width: 150px;
+    height: 56px;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background-color: #006A50;
+  }
+
+  .newsletter-footer {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
   }
